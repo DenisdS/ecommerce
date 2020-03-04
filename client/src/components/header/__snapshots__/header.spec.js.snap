@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify if header renders correctly 1`] = `
+<header
+  className="sc-AxjAm fdFFYC"
+>
+  <h1>
+    <em>
+      Empresa XPTO
+    </em>
+     - Conheça todos os nossos produtos
+  </h1>
+  <p>
+    Listagem de produtos - clique no produto desejado para saber mais
+  </p>
+</header>
+`;
