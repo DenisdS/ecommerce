@@ -10,10 +10,10 @@ const routes = () =>{
 
   return(
     <Switch>
-        <Route path='/todos' path='/' page={Products}/>
-        <Route path='/exclusivos' page={Exclusives}/>
-        <Route path='/promocao' page={Promotions}/>
-        <Route path='/favoritos' page={Favorites}/>
+        <Route path='/todos' component={Products}/>
+        <Route path='/exclusivos' component={Exclusives}/>
+        <Route path='/promocao' component={Promotions}/>
+        <Route path='/favoritos' component={Favorites}/>
     </Switch>
   );
 }

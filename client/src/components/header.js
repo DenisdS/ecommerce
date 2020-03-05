@@ -4,14 +4,15 @@ import styled from 'styled-components'
 const HeaderS = styled.header`
   display: grid;
 `
-const Header = () => {
+const Header = (props) => {
   return(
     <HeaderS>
       <h1>
-        <em>Empresa XPTO</em> - Conheça todos os nossos produtos
+        <em>{props.text.titleStrong}</em>
+        {props.text.title}
       </h1>
 
-      <p>Listagem de produtos - clique no produto desejado para saber mais</p>
+      <p>{props.text.info}</p>
     </HeaderS>
   )
 }
