@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
 import React from 'react';
-import Header from './header'
+import Header from '../../components/header'
 
 it('Verify if header renders correctly', () => {
   const tree = renderer
