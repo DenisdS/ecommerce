@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify if menu renders correctly 1`] = `
+<nav>
+  <ul>
+    <li>
+      <a
+        href="/todos"
+        onClick={[Function]}
+      >
+        Todos
+      </a>
+    </li>
+    <li>
+      <a
+        href="/exclusivos"
+        onClick={[Function]}
+      >
+        Exclusivos
+      </a>
+    </li>
+    <li>
+      <a
+        href="/promocoes"
+        onClick={[Function]}
+      >
+        Promoção
+      </a>
+    </li>
+    <li>
+      <a
+        href="/favoritos"
+        onClick={[Function]}
+      >
+        Favoritos
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
