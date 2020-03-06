@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const links = [
@@ -15,11 +14,10 @@ const Menu = () => {
       <ul>
       { links.map(link => (
           <li key={link.route}>
-            <Router>
+
             <Link to={link.route}>
               {link.label}
             </Link>
-            </Router>
           </li>
         ))}
       </ul>
