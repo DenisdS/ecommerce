@@ -8,7 +8,7 @@ Project for managening products:
   -Add product for favorite list;
   -Delete product of favorite list;
 
-### Tecnologias
+### Technologies
 JavaScript (React/Redux);
 React (Hooks);
 Eslint;
