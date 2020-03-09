@@ -14,15 +14,21 @@ const GlobalStyle = createGlobalStyle`
   li{
     list-style: none;
   }
+  #root{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+  }
 `
 
 const App = () => {
   return(
     <>
       <GlobalStyle />
-      <Header />
       <Menu />
-      <Routes />
+      <main>
+        <Header />
+        <Routes />
+      </main>
     </>
   )
 }
