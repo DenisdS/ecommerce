@@ -19,9 +19,13 @@ const Li = styled.li`
   align-items: center;
   width: 100px;
   height: 80px;
+  padding-bottom: 8px;
   background: url(${bgSite}) no-repeat;
   background-position: 23px 14px;
   border-bottom: 1px red solid;
+  :nth-child(1) a{
+    padding: 61px 50px 0 0px;
+  }
   :nth-child(2){
     background-position: 23px -84px;
   }
@@ -29,12 +33,16 @@ const Li = styled.li`
     background-position: 23px -170px;
   }
   :nth-child(4){
-    background-position: 21px -248px;
+    background-position: 21px -243px;
   }
   :nth-child(5){
     background-position: 19px -320px;
     border: none;
   }
+`
+const LinkMenu = styled(Link)`
+  padding: 47px 5px 0px 5px;
+  color: #7d7d7d;
 `
 const links = [
   { route: "/", label: ""},
@@ -51,9 +59,9 @@ const Menu = () => {
       { links.map(link => (
           <Li key={link.route}>
 
-            <Link to={link.route}>
+            <LinkMenu to={link.route}>
               {link.label}
-            </Link>
+            </LinkMenu>
           </Li>
         ))}
       </Ul>
