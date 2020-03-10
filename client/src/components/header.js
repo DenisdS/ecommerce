@@ -4,6 +4,7 @@ import {withRouter} from 'react-router'
 
 const HeaderS = styled.header`
   display: grid;
+  background: red;
 `
 const Header = (props) => {
   let pageLocation = props.location.pathname;

@@ -8,6 +8,9 @@ import Header from '../components/header'
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
+  body{
+    background: #f1f3f3;
+  }
   a{
     text-decoration: none;
   }
@@ -17,6 +20,12 @@ const GlobalStyle = createGlobalStyle`
   #root{
     display: grid;
     grid-template-columns: 130px 1fr;
+    grid-gap: 100px;
+  }
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr;
   }
 `
 

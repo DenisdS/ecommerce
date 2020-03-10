@@ -5,30 +5,30 @@ const Section = styled.section`
   display: grid;
   grid-template-columns: 1fr;
 `
-const List = styled.ul`
+const Ul = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-auto-rows: 220px;
   gap: 37.5px;
   padding: 0;
 `
-const ItemList = styled.li`
+const Li = styled.li`
   background: red;
 `
 
 const ListProducts = () => {
   return(
     <Section>
-      <List>
-        <ItemList />
-        <ItemList />
-        <ItemList />
-        <ItemList />
-        <ItemList />
-        <ItemList />
-        <ItemList />
-        <ItemList />
-      </List>
+      <Ul>
+        <Li />
+        <Li />
+        <Li />
+        <Li />
+        <Li />
+        <Li />
+        <Li />
+        <Li />
+      </Ul>
     </Section>
   )
 }

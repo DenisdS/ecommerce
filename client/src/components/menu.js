@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
+const Nav = styled.nav`
+  background: #fff;
+`
 const links = [
   { route: "/todos", label: "Todos"},
   { route: "/exclusivos", label: "Exclusivos"},
@@ -10,7 +14,7 @@ const links = [
 
 const Menu = () => {
   return(
-    <nav>
+    <Nav>
       <ul>
       { links.map(link => (
           <li key={link.route}>
@@ -21,7 +25,7 @@ const Menu = () => {
           </li>
         ))}
       </ul>
-    </nav>
+    </Nav>
   )
 }
 

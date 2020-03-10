@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import List from '../components/ListProducts'
+import List from '../components/listProducts'
 
 const Products = () =>{
 
