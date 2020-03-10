@@ -22,7 +22,7 @@ const Li = styled.li`
   padding-bottom: 8px;
   background: url(${bgSite}) no-repeat;
   background-position: 23px 14px;
-  border-bottom: 1px red solid;
+  border-bottom: 1px #e6e6e6 solid;
   :nth-child(1) a{
     padding: 61px 50px 0 0px;
   }
