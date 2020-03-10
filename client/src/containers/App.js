@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
   body{
     background: #f1f3f3;
   }
+  *{
+    padding: 0;
+  }
   a{
     text-decoration: none;
   }
